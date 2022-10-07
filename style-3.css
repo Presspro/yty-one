@@ -1,0 +1,254 @@
+
+.wapper {
+	width: 100%;
+
+	overflow: hidden;
+	padding-bottom: 44px;
+	background-size: 100% 100%;
+	border: 2px solid red;
+	background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+.wp{
+	width: 80%;
+	background-color: #5A5AAD;
+	color: #D9B300;
+	font-family:"YouYuan";
+    font-size: 25px;
+	font-weight:bold;
+	text-align: center;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.gm{
+	float: left;
+	height: 200px;
+	width: 55%;
+	background: url(images/a.webp) no-repeat;	
+}
+.banner{
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.banner span{
+		width: 40%; 
+		height: 40px; 
+		line-height: 40px; 
+		text-align: center; 
+		font-size: 20px; 
+		font-family:"YouYuan";
+		float: right;
+		border-radius: 10%;
+		color: whitesmoke;
+		background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
+        margin: 10px 0px 0px 0px;
+		}
+.banner span:hover{ 
+		cursor: pointer;
+        zoom:1.1 ;
+        }
+.content{
+		width: 80%; 
+		margin: 0px auto;
+}
+
+.content li{
+		width: 100%; 
+		text-align: center;
+		display: none; 
+	}
+
+.banner .select{background: burlywood;}
+.content .block{display: block;}
+.fj {
+	background: url(images/2.jpg) -250px -100px no-repeat;
+	width: 56%;
+    height: 150px;
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.fj2{
+	height: 600px;
+	width: 27%;
+	background: url(images/b.webp) -40px 0px no-repeat;
+	float: right;
+}
+.then{
+	width:100%;
+	top:150px;
+	position: relative;
+}
+.tp1{
+	width: 70%;
+	color: whitesmoke;
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+	background-color: #6C6C6C;
+	font-family:"YouYuan";
+}
+.tp2{
+	width:70%;
+    height: 375px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color:  rgb(67, 78, 102);
+
+}
+.tp2 p{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 375px;
+    background-size: cover;
+    transition: 0.4s;
+}
+.tp2 img{
+	height: 375px;
+
+}
+.tp2:hover p{
+  width: 12%;
+}
+.tp2 p:hover {
+  width: 50%;
+}
+.tp3{
+	width: 100%;
+	color: whitesmoke;
+	padding: 30px 0px 10px 0px;
+	font-size: 20px;
+	background-color: #6C6C6C;
+	margin: 0px auto;
+	font-family:"YouYuan";
+}
+    .cp1{
+    width: 100%;
+	color: whitesmoke;
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+	background-color: #6C6C6C;
+	margin: 20px auto;
+	font-family:"YouYuan";
+    }
+    .container {
+        margin:60px auto;
+        position:relative;
+
+    }
+    .container img {
+    	width: 170px;
+        box-shadow:2px 2px rgba(50, 50, 50, 0.4);
+        padding: 10px;
+        background: white;
+        border: 10px solid #ddd;
+        z-index: 1;
+        transition: all 0.5s ease-in-out;
+        background-size: cover;
+    }
+    .container img:hover {
+        transform: rotate(0deg) scale(1.20);
+        -webkit-transform: rotate(0deg) scale(1.20);
+        box-shadow: 15px 15px 10px rgba(50, 50, 50, 0.4);
+        z-index: 2;
+    }
+
+    .pic1 {
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        position: relative;
+    }
+    .pic2 {
+        transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+        position: relative;
+    }
+    .pic3 {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        position: relative;
+    }
+    .pic4 {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        position: relative;
+    }
+    .pic5 {
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        position: relative;
+    }
+    .pic6 {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        position: relative;
+    }
+    .pic7 {
+        transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+        position: relative;
+    }
+    .pic8 {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        position: relative;
+        
+    }
+    .pic9 {
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        position: relative;
+    }
+			#out {
+				width: 300px;
+				height: 500px;
+				overflow: hidden;
+			    margin: 0px auto;
+			}
+			.op1{
+                width: 100%;
+	            color: whitesmoke;
+	            padding: 10px 0px 10px 0px;
+	            font-size: 20px;
+	            background-color: #6C6C6C;
+	            margin: 20px auto;
+	            font-family:"YouYuan";				
+			}
+			#inner {
+				width: 1800px;
+				height: 500px;
+			}
+			#inner img{
+				width:300px;
+				height: 500px;
+				float: left;
+			}
+			#left {
+				width: 25px;
+				height: 24px;
+				background: url(images/fx1.png) 0 0 no-repeat;
+				position: absolute;	
+				zoom: 1.5;
+				left: 0;
+				top: 400px;
+				cursor: pointer;
+			}
+			
+			#right {
+				width: 25px;
+				height: 24px;
+				background: url(images/fx2.png) 0 0 no-repeat;
+				position: absolute;
+				zoom: 1.5;
+				right: 0;
+				top: 400px;
+				cursor: pointer;
+			}
+        
+
+        
+
+
